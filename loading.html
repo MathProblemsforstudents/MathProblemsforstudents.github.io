@@ -225,5 +225,19 @@
         simulateLoad();
       });
     </script>
+    <script>
+function replaceWords(node, words, replacement) {
+    if (node.nodeType === Node.TEXT_NODE) {
+        const regex = new RegExp(`\\b(${words.join("|")})\\b`, "gi");
+        node.textContent = node.textContent.replace(regex, replacement);
+    } else {
+        node.childNodes.forEach(child => replaceWords(child, words, replacement));
+    }
+}
+
+// Replace "unblocked" and "games" with "math"
+replaceWords(document.body, ["unblocked", "games"], "math");
+</script>
+
   </body>
 </html>
