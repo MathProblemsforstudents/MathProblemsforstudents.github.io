@@ -7,19 +7,19 @@ templatetopnav.innerHTML = `
   <div class="dropdown-content">
     <a href="/more/Proxies.html" class="first">Proxies</a>
     <a href="/more/discord.html" class="dis">Discord</a>
-    <a href="/more/game_help.html" class="vm">Game Help</a>
+    <a href="/more/Math_help.html" class="vm">Math Help</a>
     <a href="/more/takedown.html" class="vm">DMCA</a>
     <a href="/more/blank.html" class="gr last">about:blank</a>
   </div>
 </div>
 <a href="/about.html">📝ABOUT</a>
 <a href="/leaderboard.html">🏆LEADERBOARD</a>
-<a href="/">🎮GAMES</a>
+<a href="/">🎮MathS</a>
 <div class="centered-fixed-blur"></div>
 <div class="centered-fixed">
      <img src="/assets/img/scaled_goose_pixel.png" onmouseover="spin(this)"
     onmouseout="unspin(this)" alt="Duck" onClick="home()" width="40px" height="40px" />
-      <span id="duckmath-header" class="duckmath-header" onmouseenter="showchildren(this);" onmouseleave="hidechildren(this);">DuckMath Unblocked Games</span>
+      <span id="duckmath-header" class="duckmath-header" onmouseenter="showchildren(this);" onmouseleave="hidechildren(this);">DuckMath Math Maths</span>
 </div>
 
 
@@ -33,7 +33,7 @@ templatetopnav.innerHTML = `
 <div class="bar3"></div>
 <ul class="mobile-menu">
   <li><a href="/index.html">HOME</a></li>
-  <li><a href="/">GAMES</a></li>
+  <li><a href="/">MathS</a></li>
   <li><a href="/leaderboard.html">LEADERBOARD</a></li>
   <li><a href="/about.html">ABOUT</a></li>
   <li>
@@ -42,7 +42,7 @@ templatetopnav.innerHTML = `
       <a href="/more/Proxies.html">Proxies</a>
       <a href="/more/Virtual_Machines.html" class="vm">Virtual Machines</a>
       <a href="/more/discord.html" class="dis">Discord</a>
-      <a href="/more/game_help.html" class="gr">Game Help</a>
+      <a href="/more/Math_help.html" class="gr">Math Help</a>
     </div>
   </li>
 </ul>
@@ -73,12 +73,12 @@ templatefooter.innerHTML = `
       <div style="display: flex; align-items: center; gap: 12px;">
         <img src="/assets/img/duck.webp" alt="DuckMath" width="40" height="40" style="border-radius: 6px;"/>
         <div>
-          <a href="/" style="font-weight: 700; font-size: 1.05rem; text-decoration: none; color: inherit;">DuckMath.org — Unblocked Games For School</a>
+          <a href="/" style="font-weight: 700; font-size: 1.05rem; text-decoration: none; color: inherit;">DuckMath.org — Math Maths For School</a>
           <div style="opacity: 0.9; font-size: 0.95rem;">1,000,000+ active users since 2022</div>
         </div>
       </div>
       <div style="max-width: 680px; opacity: 0.9; font-size: 0.95rem;">
-        DuckMath.org hosts 250+ browser games, updates daily, and features leaderboards, coins, a seasonal battlepass, cloaking tools, and multiple proxy integrations so you can play from the school chromebook.
+        DuckMath.org hosts 250+ browser Maths, updates daily, and features leaderboards, coins, a seasonal battlepass, cloaking tools, and multiple proxy integrations so you can play from the school chromebook.
       </div>
     </div>
 
@@ -88,14 +88,14 @@ templatefooter.innerHTML = `
         <div style="display: grid; gap: 6px;">
           <a href="/about.html" style="text-decoration: none; color: inherit; opacity: 0.95;">About</a>
           <a href="/leaderboard.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Leaderboard</a>
-          <a href="/" style="text-decoration: none; color: inherit; opacity: 0.95;">Games</a>
+          <a href="/" style="text-decoration: none; color: inherit; opacity: 0.95;">Maths</a>
           <a href="/blog/" style="text-decoration: none; color: inherit; opacity: 0.95;">Blog</a>
           <a href="/more/Proxies.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Proxies & Cloak Mode</a>
           <a href="/more/tab-cloak.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Tab Cloak</a>
           <a href="/more/cache.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Item Shop</a>
           <a href="/more/streak.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Streak</a>
           <a href="/more/discord.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Discord (In‑Site)</a>
-          <a href="/more/game_help.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Help & Requests</a>
+          <a href="/more/Math_help.html" style="text-decoration: none; color: inherit; opacity: 0.95;">Help & Requests</a>
           <a href="/more/takedown.html" style="text-decoration: none; color: inherit; opacity: 0.95;">DMCA</a>
         </div>
       </div>
@@ -105,7 +105,7 @@ templatefooter.innerHTML = `
           <a href="https://github.com/duckmath/duckmath.github.io" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; opacity: 0.95;">GitHub</a>
           <a href="https://discord.gg/aMUVSARrEy" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; opacity: 0.95;">Discord</a>
           <a href="https://www.tiktok.com/@rockyf2p" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; opacity: 0.95;">TikTok</a>
-          <a href="https://www.youtube.com/@duckmathgames" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; opacity: 0.95;">YouTube</a>
+          <a href="https://www.youtube.com/@duckmathMaths" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; opacity: 0.95;">YouTube</a>
           <a href="https://www.instagram.com/duckmath/reels/" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; opacity: 0.95;">Instagram</a>
         </div>
       </div>
@@ -117,7 +117,7 @@ templatefooter.innerHTML = `
 
     <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; opacity: 0.85; font-size: 0.9rem; padding-top: 8px;">
       <div>© <span id="footer-year"></span> DuckMath.org</div>
-      <div>Built for fast, accessible, unblocked gaming.</div>
+      <div>Built for fast, accessible, Math gaming.</div>
     </div>
   </div>
 </footer>
