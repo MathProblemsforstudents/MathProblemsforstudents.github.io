@@ -387,18 +387,18 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What are unblocked games?",
+            "name": "What are Math Problems?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Games that work through restrictive networks like schools or workplaces, often via proxies or network-friendly hosting."
+              "text": "Math Problems that work through restrictive networks like schools or workplaces, often via proxies or network-friendly hosting."
             }
           },
           {
             "@type": "Question",
-            "name": "How do I access games if my school blocks them?",
+            "name": "How do I access Math problems?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Use our proxy and cloaking tools. If DuckMath is blocked, join our Discord for mirror links and tips. Always follow your local rules and be responsible."
+              "text": "I dont know kid. Okay?"
             }
           },
           {
@@ -414,14 +414,25 @@
             "name": "Is this duckmath.org's Main Site?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes! However most of our goodies like leaderboards, accounts, battlepass, coins, and more are on our other sites. Join the discord to get those links!"
+              "text": "Yes!"
             }
           }
         ]
       }
     </script>
-    <script>
-document.body.innerHTML = document.body.innerHTML.replace(/\b(unblocked|games)\b/gi, "math");
+
+<script>
+function replaceWords(node, words, replacement) {
+    if (node.nodeType === Node.TEXT_NODE) {
+        const regex = new RegExp(`\\b(${words.join("|")})\\b`, "gi");
+        node.textContent = node.textContent.replace(regex, replacement);
+    } else {
+        node.childNodes.forEach(child => replaceWords(child, words, replacement));
+    }
+}
+
+// Replace "unblocked" and "games" with "math"
+replaceWords(document.body, ["unblocked", "games"], "math");
 </script>
 
 
